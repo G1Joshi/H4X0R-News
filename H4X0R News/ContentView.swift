@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var networkService = NetworkService()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("H4X0R News")
+        NavigationStack {
+            List(networkService.news) { post in
+                NavigationLink(destination: DetailView(url: post.url)) {
+                    HStack {
+                        Text(String(post.points))
+                        Text(post.title)
+                    }
+                }
+            }
+            .navigationTitle("H4X0R News")
         }
-        .padding()
+        .onAppear {
+            self.networkService.fetchData()
+        }
     }
 }
 

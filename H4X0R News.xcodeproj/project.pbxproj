@@ -11,6 +11,10 @@
 		9376E882297807E000C8DBA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376E881297807E000C8DBA2 /* ContentView.swift */; };
 		9376E884297807E100C8DBA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9376E883297807E100C8DBA2 /* Assets.xcassets */; };
 		9376E887297807E100C8DBA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9376E886297807E100C8DBA2 /* Preview Assets.xcassets */; };
+		9376E88E29780C3100C8DBA2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376E88D29780C3100C8DBA2 /* NetworkService.swift */; };
+		9376E89029780D6300C8DBA2 /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376E88F29780D6300C8DBA2 /* NewsData.swift */; };
+		9376E8922978105300C8DBA2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376E8912978105300C8DBA2 /* DetailView.swift */; };
+		9376E8942978107B00C8DBA2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376E8932978107B00C8DBA2 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		9376E881297807E000C8DBA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9376E883297807E100C8DBA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9376E886297807E100C8DBA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9376E88D29780C3100C8DBA2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9376E88F29780D6300C8DBA2 /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		9376E8912978105300C8DBA2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9376E8932978107B00C8DBA2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				9376E87F297807E000C8DBA2 /* H4X0R_NewsApp.swift */,
 				9376E881297807E000C8DBA2 /* ContentView.swift */,
+				9376E8912978105300C8DBA2 /* DetailView.swift */,
+				9376E8932978107B00C8DBA2 /* WebView.swift */,
+				9376E88D29780C3100C8DBA2 /* NetworkService.swift */,
+				9376E88F29780D6300C8DBA2 /* NewsData.swift */,
 				9376E883297807E100C8DBA2 /* Assets.xcassets */,
 				9376E885297807E100C8DBA2 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9376E89029780D6300C8DBA2 /* NewsData.swift in Sources */,
 				9376E882297807E000C8DBA2 /* ContentView.swift in Sources */,
+				9376E88E29780C3100C8DBA2 /* NetworkService.swift in Sources */,
+				9376E8942978107B00C8DBA2 /* WebView.swift in Sources */,
+				9376E8922978105300C8DBA2 /* DetailView.swift in Sources */,
 				9376E880297807E000C8DBA2 /* H4X0R_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
